@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rizwan Abbas | Portfolio</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f5f7fb;
+    }
+
+    .sidebar {
+      background: linear-gradient(135deg, #484bf7, #6a6dfc);
+      color: white;
+      height: 100vh;
+      padding: 30px;
+      position: fixed;
+      width: 280px;
+    }
+
+    .sidebar img {
+      width: 150px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 20px;
+    }
+
+    .sidebar h2 {
+      font-weight: 700;
+    }
+
+    .sidebar p {
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+
+    .content {
+      margin-left: 300px;
+      padding: 40px;
+    }
+
+    .section-title {
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: #484bf7;
+    }
+
+    .card {
+      border: none;
+      border-radius: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+
+    .badge-custom {
+      background-color: #484bf7;
+    }
+
+    @media(max-width: 768px){
+      .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+      }
+
+      .content {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Sidebar -->
+<div class="sidebar text-center">
+  <img src="image.png" alt="Profile Picture">
+  <h2>Rizwan Abbas</h2>
+  <p>PhD in Software Engineering</p>
+
+  <hr>
+
+  <p>📍 Zhejiang University, China</p>
+  <p>📧 rizwanabbas@zju.edu.cn</p>
+  <p>📱 +86 18668178527</p>
+  <p>🌐 <a href="https://github.com/swerizwan" class="text-white">GitHub</a></p>
+</div>
+
+<!-- Main Content -->
+<div class="content">
+
+  <!-- About -->
+  <h3 class="section-title">About Me</h3>
+  <div class="card p-3">
+    <p>
+      I am a PhD graduate in Software Engineering specializing in AI, computer vision, 
+      emotion recognition, and generative models. My research focuses on 
+      multimodal learning, human motion generation, and intelligent recommendation systems.
+    </p>
+  </div>
+
+  <!-- Education -->
+  <h3 class="section-title">Education</h3>
+  <div class="card p-3">
+    <b>PhD – Zhejiang University (2022–2026)</b>
+    <p>Software Engineering | Score: 91.42%</p>
+
+    <b>Master – Northeastern University (2019–2022)</b>
+    <p>Software Engineering | CGPA: 3.75</p>
+
+    <b>Bachelor – UET Peshawar (2014–2018)</b>
+    <p>Computer Software Engineering</p>
+  </div>
+
+  <!-- Experience -->
+  <h3 class="section-title">Experience</h3>
+  <div class="card p-3">
+    <b>Alipay – Research Intern</b>
+    <p>Embodied intelligence research</p>
+
+    <b>Pixel Leap – AI Intern</b>
+    <p>Emotion recognition for mobile apps</p>
+
+    <b>BMW Brilliance – Intern</b>
+    <p>Web platform development</p>
+  </div>
+
+  <!-- Publications -->
+  <h3 class="section-title">Publications</h3>
+  <div class="card p-3">
+    <ul>
+      <li><b>MvtText</b> – IEEE Transactions on Multimedia (Accepted)</li>
+      <li>3D Motion Generation – Computer-Aided Design (2026)</li>
+      <li>Emotion Recognition Survey – Neurocomputing (2025)</li>
+      <li>Multimodal Emotion Framework – Multimedia Systems (2025)</li>
+    </ul>
+  </div>
+
+  <!-- Skills -->
+  <h3 class="section-title">Skills</h3>
+  <div class="card p-3">
+    <span class="badge badge-custom">Python</span>
+    <span class="badge badge-custom">Deep Learning</span>
+    <span class="badge badge-custom">Computer Vision</span>
+    <span class="badge badge-custom">PyTorch</span>
+    <span class="badge badge-custom">TensorFlow</span>
+    <span class="badge badge-custom">Recommender Systems</span>
+  </div>
+
+  <!-- Achievements -->
+  <h3 class="section-title">Achievements</h3>
+  <div class="card p-3">
+    <ul>
+      <li>🏆 ZJU Research Excellence Award (2026)</li>
+      <li>🥈 Huawei AI Competition – 2nd Place (2025)</li>
+      <li>🎓 Chinese Government Scholarship (PhD & Master)</li>
+    </ul>
+  </div>
+
+</div>
+
+</body>
+</html>
